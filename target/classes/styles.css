@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+html {
+    background-color: whitesmoke;
+    font-family: "Roboto Light", sans-serif;
+    text-align: center;
+
+}
+
+h2 {
+
+    box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+    margin-right: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+tr {
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    transition-delay: 1s;
+    transition: transform 0.25s;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+tr:hover {
+    transform: scale(1.01, 1.001);
+}
+
+
+th, td {
+    padding: 10px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+
+input[type=text] {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+
+
+}
+
+input[type=submit], button, input[type=button]  {
+    margin: 10px;
+    padding: 10px 50px;
+    background-color: whitesmoke;
+    border: whitesmoke;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2), 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s;
+    font-size: 110%;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+
+
+input[type=submit]:hover, button:hover  {
+    transform: scale(1.02, 1.002);
+}
+
+div {
+    margin: 20px 12px 10px;
+    font-size: 120%;
+}
+.square_button {
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2), 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+.square_button:hover {
+    transform: scale(1.05, 1.05);
+}
+
